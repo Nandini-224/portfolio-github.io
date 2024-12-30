@@ -1,0 +1,53 @@
+body{
+    font-size:20px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: brown;
+}
+#Tname{
+    background-color: cornsilk;
+    text-align: center;
+    font-weight: 900;
+    font-style: oblique;
+    color: red;
+
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.completed{
+    text-decoration: line-through;
+    color: 10px;
+}
+.taskbutton{
+    display: flex;
+    gap: 10px;
+}
+.taskbutton button{
+    padding: 5px 10px;
+}
+
+/* #ss{
+    border: 2px solid yellowgreen;
+
+}
+button{
+    background-color: aqua;
+    text-align: center;
+    color: blue;
+    font-weight: 800;
+} */
